@@ -55,7 +55,9 @@
   display: flex;
   justify-content: space-around;
   text-align: center;
-  border: 2px solid $main-text-color;
+  border: 3px solid $main-text-color;
+
+  margin-bottom: 120px;
 }
 
 .table__item {
