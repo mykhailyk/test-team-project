@@ -1,11 +1,14 @@
 .about__personal-info {
   display: flex;
-  justify-content: space-between;
+}
+
+.about__left-flex {
+  margin-right: 40px;
 }
 
 .about__name {
-  margin-bottom: 22px;
   display: flex;
+  margin-bottom: 22px;
 
   font-size: 23px;
   line-height: 1.39;
