@@ -1,0 +1,57 @@
+.awards {
+  padding-bottom: 120px;
+}
+
+.awards__star {
+  margin-bottom: 32px;
+}
+
+.awards__title {
+  margin-bottom: 9px;
+}
+
+.awards__subtitle {
+  margin-bottom: 61px;
+}
+
+.awards__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid $main-text-color;
+  padding: 34px 38px;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+}
+
+.awards__left-flex {
+  display: flex;
+  align-items: center;
+}
+
+.awards__square {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 48px;
+  width: 48px;
+  background-color: $accent-color;
+  color: $alternative-text-color;
+  margin-right: 24px;
+}
+
+.awards__name {
+  font-size: 23px;
+  line-height: 1.39;
+  letter-spacing: 0.48px;
+}
+
+.awards__right-flex {
+  display: flex;
+}
+
+.awards__info + .awards__info {
+  margin-left: 16px;
+}
