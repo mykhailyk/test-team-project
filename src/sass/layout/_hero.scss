@@ -1,0 +1,23 @@
+.hero__about {
+  font-size: 56px;
+  line-height: 1.14;
+  letter-spacing: 0.56px;
+  color: $main-text-color;
+}
+
+.hero__title {
+  display: flex;
+  margin-bottom: 22px;
+  font-size: 23px;
+  line-height: 1.39;
+  letter-spacing: 0.48px;
+}
+
+.tiny-star {
+  background-image: url(../images/tiny-star-20x20.svg);
+  width: 20px;
+  height: 20px;
+  align-self: center;
+  margin-left: 8px;
+  margin-right: 8px;
+}
