@@ -1,0 +1,55 @@
+.portfolio {
+  padding-bottom: 120px;
+}
+
+.portfolio__star {
+  margin-bottom: 32px;
+}
+
+.portfolio__title {
+  margin-bottom: 9px;
+}
+
+.portfolio__subtitle {
+  margin-bottom: 61px;
+}
+
+.portfolio__item:not(:last-child) {
+  margin-bottom: 96px;
+}
+
+.portfolio__card-wrapper--reverse {
+  flex-direction: row-reverse;
+}
+
+.card__body {
+  padding: 22px 39px 22px 44px;
+}
+
+.card__title-wrapper {
+  padding: 3px 12px 5px 12px;
+  background-color: $accent-color;
+  margin-bottom: 35px;
+  display: inline-block;
+}
+.card__title {
+  color: $alternative-text-color;
+}
+.card__text {
+  font-size: 45px;
+  line-height: 1.24;
+  letter-spacing: 1.44px;
+  margin-bottom: 49px;
+}
+.card__link {
+  font-size: 20px;
+  line-height: 1.6;
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.portfolio__img-wrapper {
+  display: flex;
+}
