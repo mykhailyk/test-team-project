@@ -1,3 +1,7 @@
+.about {
+  padding-bottom: 120px;
+}
+
 .about__personal-info {
   display: flex;
 }
@@ -15,12 +19,7 @@
   letter-spacing: 0.48px;
 }
 
-.tiny-star {
-  background-image: url(../images/tiny-star-20x20.svg);
-  width: 20px;
-  height: 20px;
-  align-self: center;
-
+.about__tiny-star {
   margin-left: 8px;
   margin-right: 8px;
 }
@@ -59,8 +58,6 @@
   justify-content: space-around;
   text-align: center;
   border: 3px solid $main-text-color;
-
-  margin-bottom: 120px;
 }
 
 .table__item {
