@@ -1,0 +1,36 @@
+.star-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.tiny-star {
+  background-image: url(../images/tiny-star-20x20.svg);
+  display: block;
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+.small-star {
+  background-image: url(../images/small-star-32-32.svg);
+  display: block;
+  width: 32px;
+  height: 32px;
+  align-self: center;
+}
+
+.medium-star {
+  background-image: url('../images/medium-star-40x40.svg');
+  display: block;
+  height: 40px;
+  width: 40px;
+  align-self: center;
+}
+
+.big-star {
+  background-image: url('../images/big-star.svg');
+  display: block;
+  height: 240px;
+  width: 240px;
+  align-self: center;
+}
