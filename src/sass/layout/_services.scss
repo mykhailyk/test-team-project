@@ -1,0 +1,31 @@
+.services {
+  padding-bottom: 120px;
+}
+
+.services__list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+  margin-top: 60px;
+}
+
+.services__item {
+  padding: 34px;
+  border: 2px solid #161513;
+  border-radius: 0px;
+  width: 510px;
+}
+
+.services__toptext {
+  margin-bottom: 30px;
+  font-size: 31px;
+  line-height: 40px;
+  letter-spacing: 0.64px;
+}
+
+.services__text {
+  font-size: 18px;
+  line-height: 32px;
+}
