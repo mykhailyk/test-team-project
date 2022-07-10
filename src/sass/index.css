@@ -359,4 +359,19 @@ body {
   align-items: center;
   justify-content: center;
   transform: scale(1);
+  transition-property: border, transform;
+  transition-duration: 250ms;
+  transition-timing-function: 0.4, 0, 0.2, 1;
+}
+.customer__item:hover, .customer__item:focus {
+  transform: scale(1.25);
+}
+
+.customer__icon {
+  height: 16px;
+  width: auto;
+  fill: #131416;
+  transition-property: fill;
+  transition-duration: 250ms;
+  transition-timing-function: 0.4, 0, 0.2, 1;
 }/*# sourceMappingURL=index.css.map */
