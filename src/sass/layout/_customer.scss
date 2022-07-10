@@ -3,6 +3,7 @@
 }
 
 .customer__list {
+  margin-top: 60px;
   display: flex;
   flex-wrap: wrap;
   gap: 32px;
@@ -37,4 +38,36 @@
   transition-property: fill;
   transition-duration: 250ms;
   transition-timing-function: (0.4, 0, 0.2, 1);
+}
+
+.icon1 {
+  background-image: url(/src/images/customer-icon1.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16px;
+  width: auto;
+}
+
+.icon2 {
+  background-image: url(/src/images/customer-icon2.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16px;
+  width: auto;
+}
+
+.icon3 {
+  background-image: url(/src/images/customer-icon3.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16px;
+  width: auto;
+}
+
+.icon4 {
+  background-image: url(/src/images/customer-icon4.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 16px;
+  width: auto;
 }
