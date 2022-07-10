@@ -110,6 +110,41 @@ body {
   align-self: center;
 }
 
+.header {
+  height: 96px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+  gap: 10px;
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 32px;
+}
+
+.header-nav-link {
+  color: #161513;
+  border-bottom: #161513 1px solid;
+}
+
+.header-btn {
+  padding: 9px 26px;
+  border: #161513 1px solid;
+}
+
 .about {
   padding-bottom: 120px;
 }
