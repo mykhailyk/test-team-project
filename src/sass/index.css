@@ -339,4 +339,24 @@ body {
 .services__text {
   font-size: 18px;
   line-height: 32px;
+}
+
+.customer {
+  padding-bottom: 120px;
+}
+
+.customer__list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+}
+
+.customer__item {
+  width: 240px;
+  height: 100px;
+  border: 1px solid #131416;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: scale(1);
 }/*# sourceMappingURL=index.css.map */
