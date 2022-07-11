@@ -1,23 +1,99 @@
+.hero__container {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+  max-width: 1310px;
+  width: 1310px;
+}
+
+.hero__texts {
+  margin-top: 144px;
+}
+
 .hero__about {
+  display: flex;
   font-size: 56px;
   line-height: 1.14;
   letter-spacing: 0.56px;
   color: $main-text-color;
 }
 
+.hero__title-block {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+}
+
 .hero__title {
   display: flex;
+  margin-top: 35px;
   margin-bottom: 22px;
   font-size: 23px;
   line-height: 1.39;
   letter-spacing: 0.48px;
 }
-
-.tiny-star {
-  background-image: url(../images/tiny-star-20x20.svg);
-  width: 20px;
-  height: 20px;
-  align-self: center;
+.hero__medium-star {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.hero__tiny-star {
   margin-left: 8px;
   margin-right: 8px;
+}
+.hero__button {
+  margin-bottom: 39px;
+  background: $alternative-background-color;
+  border: 1px solid $alternative-background-color;
+  border-radius: 0px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #ffffff;
+  height: 50px;
+  min-width: 179px;
+  position: relative;
+}
+.hero__button-second {
+  border: 1px solid $alternative-background-color;
+  border-radius: 0px;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: $main-text-color;
+  position: absolute;
+  height: 50px;
+  min-width: 144px;
+}
+
+.hero__photo {
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.hero__img {
+  width: auto;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.hero__list {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 163px;
+  transform: rotate(-4.93deg);
+  background-color: $alternative-background-color;
+  height: 64px;
+  align-items: center;
+  justify-content: center;
+  padding-left: 15px;
+  padding-right: 15px;
+  justify-content: space-between;
+}
+
+.hero__link {
+  display: flex;
+  font-size: 18px;
+  line-height: 1.77;
+  color: #ffffff;
 }
